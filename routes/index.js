@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/apple-app-site-association', function(req, res, next) {
 	res.sendFile(path.join(__dirname, '../public', 'apple-app-site-association')
 }
 
