@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/', function(req, res, next) {
-	res.render('apple-app-site-association', { title: 'apple-app-site-association' });
+	res.sendFile(path.join(__dirname, '../public', 'apple-app-site-association')
 }
 
 module.exports = router;
