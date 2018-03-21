@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "44GZA2S45U.com.aspiration.summit",
+      "paths": ["*"]
+    },
+    {
+      "appID": "TS4YJ77TYK.com.aspiration.summit",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
